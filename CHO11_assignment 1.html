@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Survey for Youth participation in governance">
+    <meta name="Description" content="Youth in Governance">
+    <title>My First Grazac assignment</title>
+    <title>Survey Form</title>
+    <style>
+          #container {
+              max-width: 840px;
+              background-color: hsla(7, 91%, 50%, 0.507);
+              margin: 0 auto;
+              width: auto;
+              padding: 2em;
+          }
+  
+          #title {
+              text-align: center;
+              font-size: auto;
+              margin: auto 0 -10px 0;
+  
+          }
+  
+          #description {
+              text-align: center;
+              font-style: italic;
+          }
+  
+          #name-label, #email-label, #phone-number-label {
+              font-size: 20px;
+              padding: 20px auto;
+          }
+  
+          #name, #email, #number {
+              width: 90%;
+              height: 2em;
+              margin: 1em auto;
+          }
+  
+          #opinion-on-participation > div, #suggestion > div {
+              font-style: normal;
+              padding: 0.5em 0.5em 0.5em 0;
+          }
+  
+          #submit-button {
+              cursor: pointer;
+              background-color: rgb(88, 30, 6);
+        margin-top: 1em;
+          }
+      </style>  
+</head>
+
+<body style="background-color: gray;">
+      <div>
+          <div>
+          <h1 id="title">Survey Form: Youth Participation in Governance</h1>
+          <p id="description">Thank you for giving your opinion on the participation of youth in governance</p>
+      </div>
+  
+          <div id="container">
+              <div id="form">
+                  <form id="survey-form">
+                      <div>
+                          <label id="name-label" for="name">Name<br>
+                              <input id="name" type="textarea" name="name" placeholder="Enter your name">
+                          </label><br>
+  
+                          <label id="email-label" for="email">Email<br>
+                              <input id="email" type="email" name="email" placeholder="Enter your email address">
+                          </label><br>
+  
+                          <label id="phone-number-label" for="number">Phone Number<br>
+                              <input id="number" type="number" name="number"  placeholder="Enter a number">
+                          </label><br>
+      </div>
+                <div>
+                    <p style="font-style: italic;">Choose your region</p>
+                    <select id="dropdown" placeholder="Select an option">
+                        <span><option></option></span>
+                        <span><option>Africa</option></span>
+                        <span><option>North America</option></span>
+                        <span><option>Europe</option></span>
+                        <span><option>South America</option></span>
+                        <span><option>Asia</option></span>
+                        <span><option>Australia</option></span>
+                    </select>
+                </div>
+                <div id="opinion-on-participation">
+                    <p style="font-style: italic;">Level of youth participation in your region</p>
+                    <div>
+                        <label>
+                            <input id="strong" type="radio" name="youth_participation"> Strong
+                        </label>
+                    </div>
+                <div>
+                    <label>
+                        <input id="fair" type="radio" name="youth_participation"> Fair
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input id="poor" type="radio" name="youth_participation"> Poor
+                    </label>
+                </div>
+            </div>
+            <div id="suggestion">
+                <p style="font-style: italic;">Recommendation for improvement in youth participation in your region</p>
+                <div>
+                    <label>
+                        <input type="checkbox" value="1" name="suggestion"> Awareness and orientation on the importance of youth participation in governance.
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" value="2" name="suggestion"> Encourage active participation of youths in political parties' policy formulation.
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" value="3" name="suggestion"> Mentorship for the youth group of political parties.
+                    </label>
+                </div>
+            </div>
+
+            <div>
+                <p style="font-style: italic;">Additional Comments</p>
+                <textarea rows="10" cols="100" placeholder="Enter additional comment here..."></textarea>
+            </div>
+
+            <label id="submit">
+                <input id="submit-button" type="submit" name="submit">
+            </label>
+        </form>
+    </div>
+</div>
+</div>
+</body>
+  
+  
