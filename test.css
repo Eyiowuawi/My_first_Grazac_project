@@ -38,20 +38,20 @@
 } */
 
 /* Selecting by attribute */
-/* [placeholder="Password"] {
+ [placeholder="Password"] {
     background-color: green;
     display: block;
     width: 100%;
-} */
+}
 
-/* h1 {
+h1 {
     color: purple !important;
 } */
 
 
 .title {}
 
-/* 
+
     inline style
     id
     class

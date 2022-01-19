@@ -1,0 +1,44 @@
+container {
+    max-width: 840px;
+    border-radius: 3%;
+    background-color: hsla(7, 91%, 50%, 0.507);
+    margin: 0 auto;
+    width: auto;
+    padding: 2em;
+}
+
+title {
+    text-align: center;
+    font-size: auto;
+    text-decoration-style: wavy;
+    margin: auto 0 -10px 0;
+    text-shadow: 5em;
+
+}
+
+#description {
+    text-align: center;
+    font-style: italic;
+}
+
+#name-label, #email-label, #phone-number-label {
+    font-size: 20px;
+    padding: 20px auto;
+}
+
+#name, #email, #number {
+    width: 90%;
+    height: 2em;
+    margin: 1em auto;
+}
+
+#opinion-on-participation > div, #suggestion > div {
+    font-style: normal;
+    padding: 0.5em 0.5em 0.5em 0;
+}
+
+#submit-button {
+    cursor: pointer;
+    background-color: rgb(88, 30, 6);
+margin-top: 1em;
+}
